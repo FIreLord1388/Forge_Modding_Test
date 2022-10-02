@@ -12,6 +12,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TestMod.MOD_ID);
 
+    public static final RegistryObject<Item> Raw_Uranium = ITEMS.register("raw_uranium",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> Uranium = ITEMS.register("uranium",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
