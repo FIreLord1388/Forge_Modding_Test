@@ -1,3 +1,4 @@
 {
-  "item.testmod.uranium": "Uranium"
+  "item.testmod.uranium": "Uranium",
+  "effect.testmod.radiation": "Radiation"
 }
